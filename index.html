@@ -31,7 +31,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>&lt;model-viewer&gt; Augmented Reality</title>
+  <title>Augmented Reality</title>
   <meta charset="utf-8">
   <script type="module"
     src="https://unpkg.com/@google/model-viewer@0.3.1/dist/model-viewer.js">
@@ -43,7 +43,14 @@
 
 </head>
 <body>
+
+<!-- <model-viewer
+alt="burger" src="/ar/burger.glb" ios-src="/ar/timber_shack.usdz" magic-leap ar> -->
+
 <model-viewer
-alt="burger" src="/ar/burger.glb" ios-src="/ar/timber_shack.usdz" magic-leap ar>
+src="/ar/burger.glb"
+ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto" camera-controls alt="burger"
+skybox-image="/images/timber_shack.jpg" ios-src="/ar/timber_shack.usdz">
+</model-viewer>
 </body>
 </html>
