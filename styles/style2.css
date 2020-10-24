@@ -13,3 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+body {
+    background-color: black
+}
+
+.model {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    margin: 10px;
+    height: auto;
+}
+
+.ar {
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:300px
+}
