@@ -27,6 +27,5 @@ body {
 }
 
 .ar {
-  height:800px;
-  width:800px
+  transform: scale(3.0);
 }
